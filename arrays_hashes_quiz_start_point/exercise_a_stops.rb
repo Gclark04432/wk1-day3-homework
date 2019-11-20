@@ -28,6 +28,16 @@ p stops
 p "There are #{stops.length()} stops in the array currently"
 
 #8. Show as many ways as you can to return "Falkirk High" from the array?
+p stops[2]
+p stops[-5]
+
+for stop in stops
+  if stop == "Falkirk High"
+    p stop
+  end
+end
+
+
 
 #9. Reverse the positions of the stops in the array
   stops.reverse!
