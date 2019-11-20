@@ -32,8 +32,7 @@ p "There are #{stops.length()} stops in the array currently"
 #9. Reverse the positions of the stops in the array
   stops.reverse!
 
-
 # #10 Print out all the stops using a for loop
-# for stop in stops
-#   p stops[stop
-# end
+for stop in stops
+  p stop
+end
