@@ -12,19 +12,17 @@ stops.unshift("Glasgow Queen St")
 stops.insert(4, "Polmont")
 # p stops
 
-# # #4. Print out the index position of "Linlithgow"
-# stops.select { |stop| stop = "Linlithgow" }     #=> [4, 5, 6]
-# p stop
+# #4. Print out the index position of "Linlithgow"
+p stops.index("Livingston")
+
 #
 #5. Remove "Livingston" from the array using its name
-for stop in stops
-  if stop == "Livingston"
-    stops.delete(stop)
-  end
-end
+stops.delete("Livingston")
 # p stops
 
 #6. Delete "Cumbernauld" from the array by index
+stops.delete_at(2)
+p stops
 
 #7. Print the number of stops there are in the array?
 p "There are #{stops.length()} stops in the array currently"
